@@ -1,0 +1,10 @@
+{
+  "navbar": {
+    "brand": "Armin Rayan Daroo",
+    "home" : "Home",
+    "products": "Products",
+    "aboutUs": "About us",
+    "contactUs": "Contact us",
+    "articles": "Articles"
+  }
+}

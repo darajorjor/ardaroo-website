@@ -1,0 +1,11 @@
+body {
+  direction: $default-direction;
+}
+
+.navbar-nav li {
+  float: $default-float !important;
+}
+
+.row > div{
+  float: $default-float;
+}

@@ -1,0 +1,12 @@
+// LTR languages directions.
+
+$default-float:          left;
+$opposite-float:        right;
+
+$default-direction:       ltr;
+$opposite-direction:      rtl;
+
+// Import the main style
+
+@import 'layout';
+@import 'main';

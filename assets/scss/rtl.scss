@@ -1,0 +1,22 @@
+// RTL languages directions.
+$default-float:         right;
+$opposite-float:         left;
+
+$default-direction:       rtl;
+$opposite-direction:      ltr;
+
+// Declaring the font
+@font-face {
+  font-family: IRANSans-web;
+  src: url('../fonts/IRANSans-Light-web.ttf'), url('../fonts/IRANSans-Medium-web.ttf'), url('../fonts/IRANSans-Bold-web.ttf');
+  font-weight: 700
+}
+
+// Setting the font
+h1,h2,h3,h4,h5,p,li,span,text,a,label {
+  font-family: IRANSans-web, serif, sans-serif !important;
+}
+
+// Import the main style
+@import 'layout';
+@import 'main';

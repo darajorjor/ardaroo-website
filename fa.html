@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="fa" ng-app="ard">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/rtl.css">
+    <link rel="stylesheet" href="assets/lib/font-awesome-4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/unslider/dist/css/unslider.css">
+    <link rel="stylesheet" href="bower_components/MDBootstrap/css/mdb.min.css">
+
+    <title>آرمین رایان دارو</title>
+
+
+    <style>
+        /* TEMPLATE STYLES */
+
+        html,
+        body,
+        .view {
+            height: 100%;
+        }
+        /* Navigation*/
+
+        .navbar {
+            background-color: transparent;
+        }
+
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+
+        .top-nav-collapse {
+            background-color: #1C2331;
+        }
+
+        footer.page-footer {
+            background-color: #1C2331;
+            margin-top: 2rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #1C2331;
+            }
+        }
+        /*Call to action*/
+
+        .flex-center {
+            color: #fff;
+        }
+
+        /*.view {
+            background: url("http://mdbootstrap.com/images/regular/city/img%21(17).jpg")no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        !*Contact section*!*/
+
+        #contact .fa {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #1C2331;
+        }
+
+
+
+
+        /* Carousel*/
+
+        .carousel,
+        .carousel-item,
+        .active {
+            height: 100%;
+        }
+
+        .carousel-inner {
+            height: 100%;
+        }
+
+        .carousel-item:nth-child(1) {
+            background: url("http://mdbootstrap.com/images/regular/city/img%20(17).jpg") no-repeat;
+            background-size: cover;
+        }
+
+        .carousel-item:nth-child(2) {
+            background: url("assets/img/Smile-boy-with-fresh-fruit.jpg") no-repeat;
+            background-size: cover;
+        }
+
+        .carousel-item:nth-child(3) {
+            background: url("assets/img/maxresdefault.jpg") no-repeat;
+            background-size: cover;
+        }
+        /*Caption*/
+
+        .flex-center {
+            color: #fff;
+        }
+
+        @media (min-width: 776px) {
+            .carousel .view ul li {
+                display: inline;
+            }
+            .carousel .view .full-bg-img ul li .flex-item {
+                margin-bottom: 1.5rem;
+            }
+        }
+    </style>
+
+</head>
+<body ng-controller="IntlController">
+
+<section ng-include="'./components/navbar.html'"></section>
+
+<div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1" data-slide-to="2"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-lg-12">
+                        <li>
+                            <h1 class="text-center h1-responsive flex-item" style="font-size: 55px">آرمین رایان دارو</h1>
+                        <li>
+                            <p class="flex-item">وارد کننده انواع مواد دارویی و بهداشتی</p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg flex-item">جزییات بیشتر</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://mdbootstrap.com/material-design-for-bootstrap/" class="btn btn-default btn-lg flex-item">محصولات</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide -->
+        <div class="carousel-item">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-lg-12">
+                        <li>
+                            <h1 class="h1-responsive">ویتامین c کودک</h1>
+                        </li>
+                        <li>
+                            <p> توضیحات خلاصه برای محصول توضیحات خلاصه برای محصول توضیحات خلاصه </p>
+                            <p> توضیحات خلاصه برای محصول توضیحات خلاصه برای محصول توضیحات خلاصه </p>
+                            <p> توضیحات خلاصه برای محصول توضیحات خلاصه برای محصول توضیحات خلاصه </p>
+                            <p> توضیحات خلاصه برای محصول توضیحات خلاصه برای محصول توضیحات خلاصه </p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-primary btn-lg">مشاهده و جزییات بیشتر</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.Second slide -->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-lg-12">
+                        <li>
+                            <h1 class="h1-responsive">کرم نرم کننده فلان</h1></li>
+                        <li>
+                            <p>توضیحات خلاصه برای محصول توضیحات خلاصه برای محصول </p>
+                            <p>توضیحات خلاصه برای محصول توضیحات خلاصه برای محصول </p>
+                            <p>توضیحات خلاصه برای محصول توضیحات خلاصه برای محصول </p>
+                            <p>توضیحات خلاصه برای محصول توضیحات خلاصه برای محصول </p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://mdbootstrap.com/forums/forum/support/" class="btn btn-default btn-lg">مشاهده و جزییات بیشتر</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.Third slide-->
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="right carousel-control" data-target="#carousel-example-1" role="button" data-slide="next">
+        <span class="icon-prev" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <a class="left carousel-control" data-target="#carousel-example-1" role="button" data-slide="prev">
+        <span class="icon-next" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+
+    <!--/.Controls-->
+</div>
+
+<div class="container" style="padding-top: 30px">
+
+    <section ng-include="'./components/about.html'"></section>
+    <section ng-include="'./components/products.html'"></section>
+    <section ng-include="'./components/articles.html'"></section>
+    <section ng-include="'./components/contact.html'"></section>
+</div>
+<section ng-include="'./components/footer.html'"></section>
+
+
+
+<script type="text/javascript" src="bower_components/angular/angular.min.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="bower_components/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="bower_components/tether/dist/js/tether.min.js"></script>
+<script type="text/javascript" src="bower_components/MDBootstrap/js/mdb.min.js"></script>
+<script src="assets/js/smooth-scrolling.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAoPB0w6zEUYL9RIOMsyhkfxV2DL-4UwOA&callback=initMap"></script>
+<script src="assets/js/google-map-initializer.js"></script>
+
+<!-- Animations init-->
+<script>
+    new WOW().init();
+</script>
+
+<!--angular modules-->
+<script src="app.js"></script>
+<script src="controllers/IntlController.js"></script>
+
+</body>
+</html>
